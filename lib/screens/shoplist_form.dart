@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-// TODO: Impor drawer yang sudah dibuat sebelumnya
 import 'package:shopping_list/widgets/left_drawer.dart';
 
 class ShopFormPage extends StatefulWidget {
@@ -27,7 +26,6 @@ class _ShopFormPageState extends State<ShopFormPage> {
         backgroundColor: Colors.indigo,
         foregroundColor: Colors.white,
       ),
-      // TODO: Tambahkan drawer yang sudah dibuat di sini
       body: Form(
         key: _formKey,
         child: SingleChildScrollView(
